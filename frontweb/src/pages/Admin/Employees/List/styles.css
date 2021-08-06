@@ -1,0 +1,24 @@
+.employee-crud-container {
+  max-width: 1200px;
+}
+
+.btn-crud-add {
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 16px;
+  letter-spacing: -0.015em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.employee-card {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 576px) {
+  .btn-crud-add {
+    max-width: 320px;
+  }
+}

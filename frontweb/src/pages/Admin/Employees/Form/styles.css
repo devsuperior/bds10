@@ -1,0 +1,73 @@
+.employee-crud-form-card {
+  padding: 20px;
+}
+
+.employee-crud-form-title {
+  font-weight: bold;
+  font-size: 22px;
+  letter-spacing: -0.015em;
+  color: #263238;
+  margin-bottom: 30px;
+}
+
+.margin-bottom-30 {
+  margin-bottom: 30px;
+}
+
+.employee-crud-inputs-container {
+  margin-bottom: 30px;
+}
+
+.employee-crud-inputs-left-container {
+  margin-bottom: 30px;
+}
+
+.employee-crud-buttons-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.employee-crud-button {
+  height: 50px;
+  width: 110px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+@media (min-width: 576px) {
+
+  .employee-crud-form-card {
+    padding: 40px;
+  }
+
+  .employee-crud-buttons-container {
+    justify-content: flex-end;
+  }
+
+  .employee-crud-button {
+    margin-left: 30px;
+    width: 270px;
+  }
+}
+
+.employee-crud-select__control {
+  border-radius: 10px !important;
+  font-size: 1em;
+  letter-spacing: -0.015em;
+  color: #263238;
+  height: 50px;
+}
+
+.employee-crud-select__placeholder {
+  color: #9E9E9E !important;
+}
+
+.employee-crud-select__indicator-separator {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .employee-crud-inputs-left-container {
+    margin-bottom: 0;
+  }
+}

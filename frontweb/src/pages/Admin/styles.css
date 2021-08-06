@@ -1,0 +1,16 @@
+.admin-container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}   
+
+.admin-content-container {
+    padding: 20px;
+    max-width: 960px;
+}
+
+@media (min-width: 576px) {
+    .admin-content-container {
+        padding: 40px;
+    }
+}

@@ -1,0 +1,56 @@
+.main-nav {
+  padding-left: 40px;
+  min-height: 70px;
+}
+
+.nav-logo-text {
+  color: #fff;
+}
+
+.nav-logo-text:hover {
+  color: #fff;
+}
+
+.main-menu {
+  display: flex;
+  font-size: 18px;
+  width: 380px;
+  justify-content: space-between;
+}
+
+.main-menu a {
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.main-menu a.active {
+  font-weight: bold;
+  color: #fff;
+}
+
+.main-menu a:hover {
+  color: #fff;
+}
+
+.nav-username {
+  display: none;
+}
+
+.nav-login-logout {
+  color: #fff;
+  margin-right: 20px;
+}
+
+@media (min-width: 576px) {
+  .nav-login-logout {
+    display: unset;
+    margin-right: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  .nav-username {
+    display: unset;
+    margin-right: 20px;
+  }
+}

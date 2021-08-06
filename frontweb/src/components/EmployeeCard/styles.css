@@ -1,0 +1,18 @@
+.employee-card-container {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.employee-card-name {
+    color: #888;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+}
+
+.employee-card-email {
+    font-size: 12px;
+    color: #aaa;
+}
